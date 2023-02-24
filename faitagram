@@ -32,10 +32,10 @@ def main():
 
     global fb_name, service
 
-    service = args.service
-    username = args.username
+    service = instagram
+    username = jeanne_rxll
     wordlist = args.password
-    delay = args.delay
+    delay = 0
 
 
     if os.path.exists(wordlist) == False:
